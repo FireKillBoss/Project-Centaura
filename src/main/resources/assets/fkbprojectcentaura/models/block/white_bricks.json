@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "firekillbossprojectcentaura:block/gray_bricks"
+    "all": "fkbprojectcentaura:block/white_bricks"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "firekillbossprojectcentaura:item/gray_brick"
+    "layer0": "fkbprojectcentaura:item/dark_brown_brick"
   }
 }
