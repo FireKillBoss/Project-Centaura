@@ -9,6 +9,9 @@
   "block.fkbprojectcentaura.dark_brown_bricks": "Dark Brown Bricks",
   "block.fkbprojectcentaura.gray_bricks": "Gray Bricks",
   "block.fkbprojectcentaura.dark_red_bricks": "Dark Red Bricks",
-  "block.fkbprojectcentaura.yellow_bricks": "Yellow Bricks"
+  "block.fkbprojectcentaura.yellow_bricks": "Yellow Bricks",
+
+  "creativetab.projectcentaura.project_centaura_items": "Project Centaura Items",
+  "creativetab.projectcentaura.project_centaura_blocks": "Project Centaura Blocks"
 }
 

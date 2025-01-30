@@ -2,6 +2,7 @@ package net.firekillboss.projectcentaura;
 
 import com.mojang.logging.LogUtils;
 import net.firekillboss.projectcentaura.block.ModBlocks;
+import net.firekillboss.projectcentaura.item.ModCreativeModeTabs;
 import net.firekillboss.projectcentaura.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class ProjectCentaura {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
